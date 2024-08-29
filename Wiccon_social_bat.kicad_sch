@@ -846,6 +846,151 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start 1.524 1.27)
+					(mid 0 1.778)
+					(end -1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_WCH_CH32V0:CH32V003FxUx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2476,13 +2621,15 @@
 			)
 		)
 	)
+	(junction
+		(at 106.68 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0b6c6f9-07a0-4136-ba40-fdb62e1367d7")
+	)
 	(no_connect
 		(at 138.43 104.14)
 		(uuid "157565fb-7b91-4108-b57d-5e102147298c")
-	)
-	(no_connect
-		(at 138.43 93.98)
-		(uuid "65883102-ba08-4918-a568-30888a277364")
 	)
 	(no_connect
 		(at 158.75 93.98)
@@ -2515,6 +2662,16 @@
 			(type default)
 		)
 		(uuid "05933dc7-a047-42d6-b425-60dd806cbfbc")
+	)
+	(wire
+		(pts
+			(xy 106.68 93.98) (xy 109.22 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08540494-9bd5-4b6a-91cd-78ed225e59d3")
 	)
 	(wire
 		(pts
@@ -2675,6 +2832,16 @@
 			(type default)
 		)
 		(uuid "403e44a4-88c2-4eba-af26-eb8e8ab94d04")
+	)
+	(wire
+		(pts
+			(xy 106.68 93.98) (xy 106.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "407963e1-53e3-4511-84ab-7ca6bc4d5f9d")
 	)
 	(wire
 		(pts
@@ -2925,6 +3092,16 @@
 			(type default)
 		)
 		(uuid "c85db871-5091-4a63-b78a-7fcaf8647cb6")
+	)
+	(wire
+		(pts
+			(xy 119.38 93.98) (xy 138.43 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d126c446-c6c7-431e-aecf-7cfa32ff7138")
 	)
 	(wire
 		(pts
@@ -4707,6 +4884,74 @@
 			(project "Wiccon_social_bat"
 				(path "/575bcede-8866-4ca7-a1ba-9804eb5c9e06"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 114.3 93.98 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a0a0a30-007f-4dd6-acb0-4bddc06fc567")
+		(property "Reference" "JP1"
+			(at 114.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mode"
+			(at 114.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 114.3 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "521a1460-9be3-4bac-a230-1d3fee78b5f5")
+		)
+		(pin "2"
+			(uuid "9c63e6aa-232a-447b-ac37-c671bcd17771")
+		)
+		(instances
+			(project ""
+				(path "/575bcede-8866-4ca7-a1ba-9804eb5c9e06"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
