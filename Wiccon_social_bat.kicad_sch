@@ -3752,7 +3752,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3SL-1002P"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
 			(at 114.3 106.68 0)
 			(effects
 				(font
@@ -3779,7 +3779,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "???"
+		(property "LCSC" "C318884"
 			(at 114.3 111.76 0)
 			(effects
 				(font
@@ -4213,7 +4213,7 @@
 			(uuid "f5ecdd32-8e77-4da4-8783-7f319aa4c855")
 		)
 		(instances
-			(project ""
+			(project "Wiccon_social_bat"
 				(path "/575bcede-8866-4ca7-a1ba-9804eb5c9e06"
 					(reference "#PWR01")
 					(unit 1)
@@ -4638,7 +4638,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "Wiccon_social_bat"
 				(path "/575bcede-8866-4ca7-a1ba-9804eb5c9e06"
 					(reference "N2")
 					(unit 1)
@@ -5002,7 +5002,7 @@
 			(uuid "98c19110-9c01-444e-9925-a3d2a11b8130")
 		)
 		(instances
-			(project ""
+			(project "Wiccon_social_bat"
 				(path "/575bcede-8866-4ca7-a1ba-9804eb5c9e06"
 					(reference "N1")
 					(unit 1)
@@ -5872,7 +5872,7 @@
 			(uuid "1f94a4e9-ccdc-4d75-8bc7-30aa88d58897")
 		)
 		(instances
-			(project ""
+			(project "Wiccon_social_bat"
 				(path "/575bcede-8866-4ca7-a1ba-9804eb5c9e06"
 					(reference "R1")
 					(unit 1)
