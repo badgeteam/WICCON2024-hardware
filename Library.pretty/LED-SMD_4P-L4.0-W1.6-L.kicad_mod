@@ -1,0 +1,249 @@
+(footprint "LED-SMD_4P-L4.0-W1.6-L"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "LED5"
+		(at -2.244 0.762 180)
+		(layer "F.SilkS")
+		(uuid "fa3ca3ac-d95f-45b9-9726-ee0815241c55")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SK6812SIDE-A-RVS"
+		(at 0 4.01 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e3adb24-87c4-4004-b677-1460aab32984")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "LED_SMD:LED-SMD_4P-L4.0-W1.6-L"
+		(at -0.42 6.29 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c82cd0c-29b9-448f-b63a-88552c32856b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 1.91 0.59 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39b534b9-eea0-4237-a23d-45a170b7b2d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 1.91 0.59 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6fe02f5-16a4-4f1f-9a19-a18aba6520ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C2890037"
+		(at -0.19 5.19 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef1b32d3-52ea-4df7-959c-6b55e1178898")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.6 -0.2)
+		(end -0.6 1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8128b44c-c894-4d24-8e07-0a119e268810")
+	)
+	(fp_line
+		(start -0.6 -0.2)
+		(end 4.3 -0.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "183487d9-cd7d-4f6b-a4c3-50e40de91e3d")
+	)
+	(fp_line
+		(start 0.74 1.95)
+		(end 0.79 1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b1f9e0a-d8e4-4f53-9159-d84e1921571b")
+	)
+	(fp_line
+		(start 3.63 1.95)
+		(end -0.6 1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5062479d-fc85-45a1-be95-24bdd1cdca17")
+	)
+	(fp_line
+		(start 4.3 -0.2)
+		(end 4.3 1.22)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c78eb6a-48d8-437e-a5f3-654acedba380")
+	)
+	(fp_line
+		(start 4.3 1.22)
+		(end 3.63 1.95)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2b2f693f-268a-4bdf-ad98-219eb11ad212")
+	)
+	(pad "1" smd custom
+		(at 0.275 0.6)
+		(size 0.55 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.225 -0.55) (xy 0.225 0.55) (xy -0.225 0.55) (xy -0.225 0.18) (xy -0.675 0.18) (xy -0.675 -0.3)
+					(xy -0.225 -0.3) (xy -0.225 -0.55)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "4d95c04f-25a0-451c-8421-c190fb1f2ad9")
+	)
+	(pad "2" smd rect
+		(at 1.4 0.6)
+		(size 0.7 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "816790b6-2140-43e1-864c-d79d8813a8e0")
+	)
+	(pad "3" smd rect
+		(at 2.425 0.6)
+		(size 0.45 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "16eff74f-d29f-4567-b0e2-8d8d4e774fc8")
+	)
+	(pad "4" smd custom
+		(at 3.425 0.6)
+		(size 0.55 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.225 -0.55) (xy -0.225 0.55) (xy 0.225 0.55) (xy 0.225 0.18) (xy 0.675 0.18) (xy 0.675 -0.3)
+					(xy 0.225 -0.3) (xy 0.225 -0.55)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "29909318-0296-4f44-b660-70029b3b61d3")
+	)
+	(model "/Users/wietseboonstra/git/badges/WICCA/WICCON_2024/Wiccon_2024/libs/3dshapes/LED-SMD_4P-L4.0-W1.6-L.wrl"
+		(offset
+			(xyz 1.8 -0.57 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
+)
