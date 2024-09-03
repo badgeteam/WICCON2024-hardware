@@ -2918,7 +2918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Schottky-Diodes_Slkor-SLKORMICRO-Elec-1N5819W_C5185907.html"
 			(at 222.25 44.45 0)
 			(effects
 				(font
@@ -2928,6 +2928,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 222.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5185907"
 			(at 222.25 44.45 0)
 			(effects
 				(font
@@ -3051,7 +3060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Power-Inductors_COILANK-INTERNATIONAL-ABG06A28M470_C253589.html"
 			(at 204.47 44.45 0)
 			(effects
 				(font
@@ -3129,7 +3138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_TDK-C1005X5R1E104KT000E_C361203.html"
 			(at 193.04 60.96 0)
 			(effects
 				(font
@@ -3139,6 +3148,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 193.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C361203"
 			(at 193.04 60.96 0)
 			(effects
 				(font
@@ -3671,7 +3689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Slide-Switches_XKB-Connection-SK-3296S-01-L1_C319020.html"
 			(at 185.42 44.45 0)
 			(effects
 				(font
@@ -3681,6 +3699,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 185.42 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C319020"
 			(at 185.42 44.45 0)
 			(effects
 				(font
@@ -3778,9 +3805,9 @@
 		(at 45.72 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7d09be4e-8512-420d-8b24-6d27d50d990c")
 		(property "Reference" "J3"
@@ -3791,7 +3818,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x03_Odd_Even"
+		(property "Value" "SAO"
 			(at 46.99 41.91 0)
 			(effects
 				(font
@@ -3925,9 +3952,9 @@
 		(at 45.72 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "84e08937-e5c5-4db8-9603-ff9d6dc2e2cd")
 		(property "Reference" "J7"
@@ -3938,7 +3965,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x03_Odd_Even"
+		(property "Value" "SAO"
 			(at 46.99 73.66 0)
 			(effects
 				(font
@@ -4005,9 +4032,9 @@
 		(at 45.72 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "98dcbe3f-7062-40b3-bddf-7f08cdb21452")
 		(property "Reference" "J1"
@@ -4018,7 +4045,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x03_Odd_Even"
+		(property "Value" "SAO"
 			(at 46.99 24.13 0)
 			(effects
 				(font
@@ -4394,7 +4421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_TDK-C1005X5R1E104KT000E_C361203.html"
 			(at 232.41 60.96 0)
 			(effects
 				(font
@@ -4404,6 +4431,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 232.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C361203"
 			(at 232.41 60.96 0)
 			(effects
 				(font
@@ -4432,9 +4468,9 @@
 		(at 45.72 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b6aae89d-b823-42f5-b45a-a42352a7f6bd")
 		(property "Reference" "J5"
@@ -4445,7 +4481,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x03_Odd_Even"
+		(property "Value" "SAO"
 			(at 46.99 58.42 0)
 			(effects
 				(font
@@ -4512,9 +4548,9 @@
 		(at 82.55 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b94a141c-492c-4041-806b-f4db2a2ff63c")
 		(property "Reference" "J8"
@@ -4525,7 +4561,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x03_Odd_Even"
+		(property "Value" "SAO"
 			(at 83.82 73.66 0)
 			(effects
 				(font
@@ -5064,9 +5100,9 @@
 		(at 82.55 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dfbfdc27-dc60-41c1-85e1-6e3ec4b0155e")
 		(property "Reference" "J4"
@@ -5077,7 +5113,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x03_Odd_Even"
+		(property "Value" "SAO"
 			(at 83.82 41.91 0)
 			(effects
 				(font
@@ -5144,9 +5180,9 @@
 		(at 82.55 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e5e3c9f1-92bd-4384-bd48-22a01c29ce08")
 		(property "Reference" "J2"
@@ -5157,7 +5193,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x03_Odd_Even"
+		(property "Value" "SAO"
 			(at 83.82 24.13 0)
 			(effects
 				(font
@@ -5224,9 +5260,9 @@
 		(at 172.72 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e8732bb7-337d-4b29-940c-e53d65d31f62")
 		(property "Reference" "BT1"
@@ -5516,9 +5552,9 @@
 		(at 82.55 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f6921ca1-5037-4021-8c58-7f5c2c9083ff")
 		(property "Reference" "J6"
@@ -5529,7 +5565,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x03_Odd_Even"
+		(property "Value" "SAO"
 			(at 83.82 58.42 0)
 			(effects
 				(font
