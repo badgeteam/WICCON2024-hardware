@@ -1,0 +1,9 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+BT1,BatteryHolder_Keystone_2468_2xAAA_noholes,1,Battery,C5290191
+"C1, C3",0402,2,100n,
+"C2, C4",0805,2,22u,C45783
+D1,D_SOD-123,1,1N5819,
+"J1, J2, J3, J4, J5, J6, J7, J8",PinSocket_2x03_P2.54mm_Vertical_nosilk,8,Conn_02x03_Odd_Even,
+L1,L_Cenker_CKCS6020,1,47u,C253589
+SW1,SW_SPDT_PCM12,1,ON/OFF,
+U1,SOT-89-3,1,QX2303L33E,C236071

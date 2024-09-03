@@ -1,0 +1,14 @@
+﻿Designator,Mid X,Mid Y,Rotation,Layer
+C1,-20.8,-8.382,180.0,bottom
+C2,16.256,-8.382,180.0,bottom
+C3,-6.14,-12.0,0.0,bottom
+J1,0.0,-15.0,270.0,bottom
+LED1,-23.072,-7.112,180.0,bottom
+LED2,-13.822,-7.112,180.0,bottom
+LED3,-4.572,-7.112,180.0,bottom
+LED4,4.678,-7.112,180.0,bottom
+LED5,13.928,-7.112,180.0,bottom
+N1,-2.6e-05,-1.9e-05,0.0,top
+R1,-6.5,-18.0,180.0,bottom
+SW1,31.907,0.048,270.0,bottom
+U1,-7.0,-15.0,0.0,bottom

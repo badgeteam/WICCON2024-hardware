@@ -3235,6 +3235,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "-"
+			(at 250.19 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "WICCON-2024-SAO-Nametag"
 				(path "/f3abeae8-06bc-456b-81bc-945955c4341d"
@@ -3559,6 +3568,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 250.19 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 250.19 153.67 0)
 			(effects
 				(font
