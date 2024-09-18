@@ -201,7 +201,7 @@
 				)
 			)
 		)
-		(property "Description" "Housing"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6004,7 +6004,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6017,11 +6017,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C92272"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14d2811b-a4b6-4d96-b9d9-5c002c0a5349")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/84e08937-e5c5-4db8-9603-ff9d6dc2e2cd")
 		(sheetname "Root")
 		(sheetfile "WICCON-2024-SAO-Nametag.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole)
 		(fp_line
 			(start 1.76 -1.8)
 			(end 1.76 6.85)
@@ -6257,7 +6270,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6270,11 +6283,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C92272"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97135eb6-7c8b-4a53-a49a-ddf6fbda6833")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/e5e3c9f1-92bd-4384-bd48-22a01c29ce08")
 		(sheetname "Root")
 		(sheetfile "WICCON-2024-SAO-Nametag.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole)
 		(fp_line
 			(start 1.76 -1.8)
 			(end 1.76 6.85)
@@ -6510,7 +6536,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6523,11 +6549,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C92272"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f4ba23a-f98d-483c-84bf-9e52ffe34eb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/b6aae89d-b823-42f5-b45a-a42352a7f6bd")
 		(sheetname "Root")
 		(sheetfile "WICCON-2024-SAO-Nametag.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole)
 		(fp_line
 			(start 1.76 -1.8)
 			(end 1.76 6.85)
@@ -6763,7 +6802,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6776,11 +6815,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C92272"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7bf44be-db63-4f30-962f-af890356e66a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/7d09be4e-8512-420d-8b24-6d27d50d990c")
 		(sheetname "Root")
 		(sheetfile "WICCON-2024-SAO-Nametag.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole)
 		(fp_line
 			(start 1.76 -1.8)
 			(end 1.76 6.85)
@@ -7016,7 +7068,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7144,7 +7196,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7272,7 +7324,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7285,11 +7337,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C92272"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "160a31ec-a4b6-4c5f-9be9-c92c694cde2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/98dcbe3f-7062-40b3-bddf-7f08cdb21452")
 		(sheetname "Root")
 		(sheetfile "WICCON-2024-SAO-Nametag.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole)
 		(fp_line
 			(start 1.76 -1.8)
 			(end 1.76 6.85)
@@ -7525,7 +7590,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7538,11 +7603,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C92272"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16c3b687-d14c-4b6f-b061-747d7e877f27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/f6921ca1-5037-4021-8c58-7f5c2c9083ff")
 		(sheetname "Root")
 		(sheetfile "WICCON-2024-SAO-Nametag.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole)
 		(fp_line
 			(start 1.76 -1.8)
 			(end 1.759999 6.85)
@@ -7778,7 +7856,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 -135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7791,11 +7869,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C92272"
+			(at 0 0 -135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f91dc13d-97b4-47ef-a0e4-795d70f1df22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/b94a141c-492c-4041-806b-f4db2a2ff63c")
 		(sheetname "Root")
 		(sheetfile "WICCON-2024-SAO-Nametag.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole)
 		(fp_line
 			(start 1.759999 6.85)
 			(end -4.34 6.85)
@@ -8031,7 +8122,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8044,11 +8135,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C92272"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51adc9aa-3ed4-4448-984a-d836a6ac8373")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/dfbfdc27-dc60-41c1-85e1-6e3ec4b0155e")
 		(sheetname "Root")
 		(sheetfile "WICCON-2024-SAO-Nametag.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole)
 		(fp_line
 			(start 1.76 -1.8)
 			(end 1.76 6.85)
@@ -8987,7 +9091,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Housing"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10688,7 +10792,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Multiple-cell battery"
+		(property "Description" "2x AAA"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10719,7 +10823,7 @@
 		(path "/e8732bb7-337d-4b29-940c-e53d65d31f62")
 		(sheetname "Root")
 		(sheetfile "WICCON-2024-SAO-Nametag.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole)
 		(fp_line
 			(start -2.7 6.055)
 			(end 50.5 6.055)
@@ -11620,7 +11724,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "RED LED"
+		(property "Description" "Red LED"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12653,7 +12757,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Housing"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15056,7 +15160,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Housing"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")

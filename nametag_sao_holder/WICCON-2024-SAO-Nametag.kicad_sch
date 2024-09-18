@@ -3135,7 +3135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Housing"
+		(property "Description" ""
 			(at 265.43 132.08 0)
 			(effects
 				(font
@@ -3342,7 +3342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Housing"
+		(property "Description" ""
 			(at 265.43 144.78 0)
 			(effects
 				(font
@@ -3415,7 +3415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RED LED"
+		(property "Description" "Red LED"
 			(at 250.19 50.8 0)
 			(effects
 				(font
@@ -3790,7 +3790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 250.19 158.75 0)
 			(effects
 				(font
@@ -4197,7 +4197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 250.19 153.67 0)
 			(effects
 				(font
@@ -4270,7 +4270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Housing"
+		(property "Description" ""
 			(at 265.43 120.65 0)
 			(effects
 				(font
@@ -4526,9 +4526,9 @@
 		(at 45.72 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d09be4e-8512-420d-8b24-6d27d50d990c")
 		(property "Reference" "J3"
@@ -4565,7 +4565,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C92272"
 			(at 45.72 48.26 0)
 			(effects
 				(font
@@ -4673,9 +4682,9 @@
 		(at 45.72 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84e08937-e5c5-4db8-9603-ff9d6dc2e2cd")
 		(property "Reference" "J7"
@@ -4712,7 +4721,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
+			(at 45.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C92272"
 			(at 45.72 80.01 0)
 			(effects
 				(font
@@ -4753,9 +4771,9 @@
 		(at 45.72 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98dcbe3f-7062-40b3-bddf-7f08cdb21452")
 		(property "Reference" "J1"
@@ -4792,7 +4810,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
+			(at 45.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C92272"
 			(at 45.72 30.48 0)
 			(effects
 				(font
@@ -5265,9 +5292,9 @@
 		(at 45.72 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6aae89d-b823-42f5-b45a-a42352a7f6bd")
 		(property "Reference" "J5"
@@ -5304,7 +5331,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
+			(at 45.72 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C92272"
 			(at 45.72 64.77 0)
 			(effects
 				(font
@@ -5345,9 +5381,9 @@
 		(at 82.55 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b94a141c-492c-4041-806b-f4db2a2ff63c")
 		(property "Reference" "J8"
@@ -5384,7 +5420,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
+			(at 82.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C92272"
 			(at 82.55 80.01 0)
 			(effects
 				(font
@@ -5865,7 +5910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Housing"
+		(property "Description" ""
 			(at 265.43 154.94 0)
 			(effects
 				(font
@@ -5897,9 +5942,9 @@
 		(at 82.55 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfbfdc27-dc60-41c1-85e1-6e3ec4b0155e")
 		(property "Reference" "J4"
@@ -5936,7 +5981,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
+			(at 82.55 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C92272"
 			(at 82.55 48.26 0)
 			(effects
 				(font
@@ -5977,9 +6031,9 @@
 		(at 82.55 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5e3c9f1-92bd-4384-bd48-22a01c29ce08")
 		(property "Reference" "J2"
@@ -6016,7 +6070,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
+			(at 82.55 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C92272"
 			(at 82.55 30.48 0)
 			(effects
 				(font
@@ -6057,9 +6120,9 @@
 		(at 172.72 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8732bb7-337d-4b29-940c-e53d65d31f62")
 		(property "Reference" "BT1"
@@ -6098,7 +6161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multiple-cell battery"
+		(property "Description" "2x AAA"
 			(at 172.72 62.23 0)
 			(effects
 				(font
@@ -6349,9 +6412,9 @@
 		(at 82.55 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6921ca1-5037-4021-8c58-7f5c2c9083ff")
 		(property "Reference" "J6"
@@ -6388,7 +6451,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C92272"
 			(at 82.55 64.77 0)
 			(effects
 				(font
