@@ -315,7 +315,7 @@ int main() {
             bool button = !funDigitalRead(PIN_BUTTON);
             if (button && !prev_button && button_enabled) {
                 system_mode++;
-                if (system_mode > 7) system_mode = 1;
+                if (system_mode > 9) system_mode = 1;
             }
             prev_button = button;
 
@@ -351,7 +351,7 @@ int main() {
                             led_effect_data[(i * 3) + 0] = 50 * social_level;
                             led_effect_data[(i * 3) + 1] = 0xFF - 50 * social_level;
                         }
-                        led_effect_data[(i * 3) + 2] = touch_value[i] > 2000 ? 0xFF : 0x00;
+                        led_effect_data[(i * 3) + 2] = touch_value[i] > 1900 ? 0xFF : 0x00;
                     }
                     break;
                 }
@@ -362,6 +362,24 @@ int main() {
                         led_effect_data[(led * 3) + 0] = (color >>  8) & 0xFF;
                         led_effect_data[(led * 3) + 1] = (color >> 16) & 0xFF;
                         led_effect_data[(led * 3) + 2] = (color >>  0) & 0xFF;
+                        if (touch_value[led] > 1900) {
+                            led_effect_data[(led * 3) + 0] = 0xFF;
+                            led_effect_data[(led * 3) + 1] = 0xFF;
+                            led_effect_data[(led * 3) + 2] = 0xFF;
+                            if (led==1) {
+                                if (rainbow_speed > 0x00) {
+                                    rainbow_speed--;
+                                }
+                            }
+                            if (led==3) {
+                                rainbow_speed = 15; // Reset
+                            }
+                            if (led==4) {
+                                if (rainbow_speed < 0xFF) {
+                                    rainbow_speed++;
+                                }
+                            }
+                        }
                     }
                     hue++;
                     break;
@@ -383,6 +401,33 @@ int main() {
                     led_effect_data[12] = 0; // G
                     led_effect_data[13] = 0; // R
                     led_effect_data[14] = 255; // B
+                    if (touch_value[0] > 1900) {
+                        led_effect_data[0] = 150; // G
+                        led_effect_data[1] = 255; // R
+                        led_effect_data[2] = 174; // B
+                    }
+                    if (touch_value[1] > 1900) {
+                        led_effect_data[3] = 0; // G
+                        led_effect_data[4] = 0; // R
+                        led_effect_data[5] = 255; // B
+                    }
+                    if (touch_value[2] > 1900) {
+                        uint32_t color = EHSVtoHEX(hue, 240, 128);
+                        led_effect_data[6] = (color >>  8) & 0xFF;
+                        led_effect_data[7] = (color >> 16) & 0xFF;
+                        led_effect_data[8] = (color >>  0) & 0xFF;
+                        hue += 10;
+                    }
+                    if (touch_value[3] > 1900) {
+                        led_effect_data[9] = 0; // G
+                        led_effect_data[10] = 0; // R
+                        led_effect_data[11] = 255; // B
+                    }
+                    if (touch_value[4] > 1900) {
+                        led_effect_data[12] = 150; // G
+                        led_effect_data[13] = 255; // R
+                        led_effect_data[14] = 174; // B
+                    }
                     break;
                 }
                 case 4: {
@@ -417,6 +462,75 @@ int main() {
                 case 7: {
                     // Knightrider (blue)
                     knightrider_step(2);
+                    break;
+                }
+                case 8: {
+                    // Party animals
+                    for (uint8_t i = 0; i < 15; i++) {
+                        led_effect_data[i] = 0xFF;
+                    }
+                    if (touch_value[0] > 1900) {
+                        uint32_t color = EHSVtoHEX(hue, 240, 128);
+                        led_effect_data[0] = (color >>  8) & 0xFF;
+                        led_effect_data[1] = (color >> 16) & 0xFF;
+                        led_effect_data[2] = (color >>  0) & 0xFF;
+                        hue += 10;
+                    }
+                    if (touch_value[1] > 1900) {
+                        uint32_t color = EHSVtoHEX(hue, 240, 128);
+                        led_effect_data[3] = (color >>  8) & 0xFF;
+                        led_effect_data[4] = (color >> 16) & 0xFF;
+                        led_effect_data[5] = (color >>  0) & 0xFF;
+                        hue += 10;
+                    }
+                    if (touch_value[2] > 1900) {
+                        uint32_t color = EHSVtoHEX(hue, 240, 128);
+                        led_effect_data[6] = (color >>  8) & 0xFF;
+                        led_effect_data[7] = (color >> 16) & 0xFF;
+                        led_effect_data[8] = (color >>  0) & 0xFF;
+                        hue += 10;
+                    }
+                    if (touch_value[3] > 1900) {
+                        uint32_t color = EHSVtoHEX(hue, 240, 128);
+                        led_effect_data[9] = (color >>  8) & 0xFF;
+                        led_effect_data[10] = (color >> 16) & 0xFF;
+                        led_effect_data[11] = (color >>  0) & 0xFF;
+                        hue += 10;
+                    }
+                    if (touch_value[4] > 1900) {
+                        uint32_t color = EHSVtoHEX(hue, 240, 128);
+                        led_effect_data[12] = (color >>  8) & 0xFF;
+                        led_effect_data[13] = (color >> 16) & 0xFF;
+                        led_effect_data[14] = (color >>  0) & 0xFF;
+                        hue += 10;
+                    }
+                    break;
+                }
+                case 9: {
+                    // Moving cats
+                    for (uint8_t i = 0; i < 15; i++) {
+                        led_effect_data[i] = 0;
+                    }
+                    if (touch_value[0] > 1900) {
+                        social_level = 0;
+                    }
+                    if (touch_value[1] > 1900) {
+                        social_level = 1;
+                    }
+                    if (touch_value[2] > 1900) {
+                        social_level = 2;
+                    }
+                    if (touch_value[3] > 1900) {
+                        social_level = 3;
+                    }
+                    if (touch_value[4] > 1900) {
+                        social_level = 4;
+                    }
+                    uint32_t color = EHSVtoHEX(hue, 240, 128);
+                    led_effect_data[social_level * 3 + 0] = (color >>  8) & 0xFF;
+                    led_effect_data[social_level * 3 + 1] = (color >> 16) & 0xFF;
+                    led_effect_data[social_level * 3 + 2] = (color >>  0) & 0xFF;
+                    hue += 10;
                     break;
                 }
             }
