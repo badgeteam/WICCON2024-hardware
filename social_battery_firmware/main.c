@@ -251,17 +251,34 @@ int main() {
     funPinMode(PIN_E2, GPIO_CFGLR_IN_PUPD);
     funDigitalWrite(PIN_E2, true); // Pull-up
 
-    // Initialize GPIO for I2C
-    funPinMode(PIN_SDA, GPIO_CFGLR_OUT_10Mhz_AF_OD);
-    funPinMode(PIN_SCL, GPIO_CFGLR_OUT_10Mhz_AF_OD);
-
     // LEDs
     funPinMode(PIN_LED, GPIO_CFGLR_OUT_10Mhz_PP);
 
+    // Check if I2C bus is usable
+    // This is done by enabling the internal pull-down resistors and checking the state of both SCL and SDA.
+    // If either is held high by the bus pull-up resistors then the bus is considered usable.
+    funPinMode(PIN_SDA, GPIO_CFGLR_IN_PUPD);
+    funPinMode(PIN_SCL, GPIO_CFGLR_IN_PUPD);
+    funDigitalWrite(PIN_SDA, false); // Pull-down
+    funDigitalWrite(PIN_SCL, false); // Pull-down
 
-    // Initialize I2C in peripheral mode
-    SetupI2CSlave(I2C_ADDR_CONTROL, i2c_registers, sizeof(i2c_registers), onWrite, onRead, false);
-    SetupSecondaryI2CSlave(I2C_ADDR_EEPROM, (uint8_t*) eeprom_registers, sizeof(eeprom_registers), NULL, NULL, true);
+    if (funDigitalRead(PIN_SDA) || funDigitalRead(PIN_SCL)) {
+        // Initialize GPIO for I2C
+        funPinMode(PIN_SDA, GPIO_CFGLR_OUT_10Mhz_AF_OD);
+        funPinMode(PIN_SCL, GPIO_CFGLR_OUT_10Mhz_AF_OD);
+
+        // Initialize I2C in peripheral mode
+        SetupI2CSlave(I2C_ADDR_CONTROL, i2c_registers, sizeof(i2c_registers), onWrite, onRead, false);
+        SetupSecondaryI2CSlave(I2C_ADDR_EEPROM, (uint8_t*) eeprom_registers, sizeof(eeprom_registers), NULL, NULL, true);
+    } else {
+        for (uint8_t i = 0; i < 5; i++) {
+            led_effect_data[i * 3 + 0] = 0x00;
+            led_effect_data[i * 3 + 1] = 0xFF;
+            led_effect_data[i * 3 + 2] = 0x00;
+        }
+        write_addressable_leds((uint8_t*) led_effect_data, 15);
+        Delay_Ms(100);
+    }
 
     uint8_t hue = 0;
 
@@ -289,7 +306,7 @@ int main() {
             int32_t touch_value[5] = {0};
             for (uint8_t i = 0; i < 5; i++) {
                 touch_value[i] = raw_touch_value[i] - baseline[i];
-                if (touch_value[i] > 2000) {
+                if (touch_value[i] > 1900) {
                     social_level = i;
                 }
             }
