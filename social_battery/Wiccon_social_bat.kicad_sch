@@ -2622,6 +2622,12 @@
 		)
 	)
 	(junction
+		(at 133.35 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74fb1b24-bb94-4a8b-93e9-0c77c00ca5bf")
+	)
+	(junction
 		(at 106.68 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2755,6 +2761,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 96.52) (xy 138.43 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c6ac6e3-cc41-4a03-897f-59bccb832aa1")
+	)
+	(wire
+		(pts
 			(xy 161.29 109.22) (xy 158.75 109.22)
 		)
 		(stroke
@@ -2865,13 +2881,23 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 96.52) (xy 138.43 96.52)
+			(xy 128.27 96.52) (xy 133.35 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "54dbcda7-8b9c-43f9-a5d2-ad8c4ac1101a")
+	)
+	(wire
+		(pts
+			(xy 148.59 86.36) (xy 148.59 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55591c6b-9e7f-4258-96a6-580021fcc48e")
 	)
 	(wire
 		(pts
@@ -3102,6 +3128,16 @@
 			(type default)
 		)
 		(uuid "c85db871-5091-4a63-b78a-7fcaf8647cb6")
+	)
+	(wire
+		(pts
+			(xy 133.35 91.44) (xy 133.35 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0bbd3a9-a1f9-4527-adab-41d84a0685f7")
 	)
 	(wire
 		(pts
@@ -4358,6 +4394,72 @@
 			(project "Wiccon_social_bat"
 				(path "/575bcede-8866-4ca7-a1ba-9804eb5c9e06"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 133.35 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46abcb51-f20a-48b1-ad14-1f133765f82f")
+		(property "Reference" "#PWR024"
+			(at 133.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 133.35 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 133.35 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9178b75e-b7e0-467e-8472-eeddc176b926")
+		)
+		(instances
+			(project "Wiccon_social_bat"
+				(path "/575bcede-8866-4ca7-a1ba-9804eb5c9e06"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5884,7 +5986,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 148.59 88.9 0)
+		(at 148.59 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5893,7 +5995,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5194fc9-8c3e-4ac5-9d80-f943db9ec119")
 		(property "Reference" "#PWR019"
-			(at 148.59 92.71 0)
+			(at 148.59 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5902,7 +6004,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 148.59 83.82 0)
+			(at 148.59 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5910,7 +6012,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 88.9 0)
+			(at 148.59 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5919,7 +6021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 88.9 0)
+			(at 148.59 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5928,7 +6030,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 148.59 88.9 0)
+			(at 148.59 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6864,6 +6966,82 @@
 			(project "Wiccon_social_bat"
 				(path "/575bcede-8866-4ca7-a1ba-9804eb5c9e06"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 133.35 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5eb50ee-ca29-45f8-84ba-004acb85df03")
+		(property "Reference" "R2"
+			(at 130.048 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 130.048 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 133.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 133.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4743aa9-a254-476d-8c96-931bd09eafd3")
+		)
+		(pin "1"
+			(uuid "b1191dad-71ac-40c1-af10-e3aa1a113dce")
+		)
+		(instances
+			(project "Wiccon_social_bat"
+				(path "/575bcede-8866-4ca7-a1ba-9804eb5c9e06"
+					(reference "R2")
 					(unit 1)
 				)
 			)

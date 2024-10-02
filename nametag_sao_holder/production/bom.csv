@@ -1,5 +1,5 @@
 ﻿Designator,Footprint,Quantity,Value,LCSC Part #
-BT1,BatteryHolder_Keystone_2468_2xAAA_noholes,1,Battery,C5290191
+BT1,BAT-TH_BH-BH-AAA-A1AJ020,1,Battery,C5290191
 "C1, C3",0402,2,100n,C361203
 "C2, C4",0805,2,22u,C45783
 D1,D_SOD-123,1,1N5819,C5185907

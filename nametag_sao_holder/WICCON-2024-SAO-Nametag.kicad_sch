@@ -11603,7 +11603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:BatteryHolder_Keystone_2468_2xAAA_noholes"
+		(property "Footprint" "Library:BAT-TH_BH-BH-AAA-A1AJ020"
 			(at 48.26 169.926 90)
 			(effects
 				(font
